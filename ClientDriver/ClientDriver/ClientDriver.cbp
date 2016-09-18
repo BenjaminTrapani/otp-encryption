@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ClientDriver" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ClientDriver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+					<Add directory="../../OTPEncryptor/include" />
+					<Add directory="../../OTPEncryptor/Deps/gloox/gloox-1.0.13/src" />
+				</Compiler>
+				<Linker>
+					<Add option="-lboost_system -lboost_thread -lz -lresolv -pthread" />
+					<Add library="../../OTPEncryptor/bin/Debug/libOTPEncryptor.a" />
+					<Add library="../../OTPEncryptor/Deps/gloox/libgloox.a" />
+					<Add library="libresolv.a" />
+					<Add library="z" />
+					<Add library="../../OTPEncryptor/Deps/libxmlrpc++.a" />
+					<Add library="../../OTPEncryptor/Deps/libxmlrpc_xmltok.a" />
+					<Add library="../../OTPEncryptor/Deps/libxmlrpc_xmlparse.a" />
+					<Add library="../../OTPEncryptor/Deps/libxmlrpc_util.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ClientDriver" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-DRELEASE" />
+					<Add directory="../../OTPEncryptor/include" />
+					<Add directory="../../OTPEncryptor/Deps/gloox/gloox-1.0.13/src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-pthread" />
+					<Add library="../../OTPEncryptor/Deps/libboost_thread.a" />
+					<Add library="../../OTPEncryptor/bin/Release/libOTPEncryptor.a" />
+					<Add library="../../OTPEncryptor/Deps/gloox/libgloox.a" />
+					<Add library="../../OTPEncryptor/Deps/libxmlrpc++.a" />
+					<Add library="../../OTPEncryptor/Deps/libxmlrpc_xmltok.a" />
+					<Add library="../../OTPEncryptor/Deps/libxmlrpc_xmlparse.a" />
+					<Add library="../../OTPEncryptor/Deps/libxmlrpc_util.a" />
+					<Add library="../../OTPEncryptor/Deps/libresolv.a" />
+					<Add library="../../OTPEncryptor/Deps/libz.a" />
+					<Add library="../../OTPEncryptor/Deps/libboost_system.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

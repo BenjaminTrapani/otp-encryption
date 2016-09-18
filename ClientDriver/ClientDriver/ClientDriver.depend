@@ -1,0 +1,281 @@
+# depslib dependency file v1.0
+1427484699 source:/home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/ClientDriver/ClientDriver/main.cpp
+	<iostream>
+	<boost/asio.hpp>
+	<boost/thread.hpp>
+	<Server.h>
+	<Message.h>
+	<KeyManager.h>
+	<chrono>
+	<XMPClient.h>
+
+1425744500 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/include/Client.h
+	<thread>
+	<boost/asio.hpp>
+	"KeyManager.h"
+	"Message.h"
+
+1427484898 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/include/KeyManager.h
+	"stdio.h"
+	<iostream>
+	<fstream>
+	"FastByteArray.h"
+
+1427478097 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/include/FastByteArray.h
+	"stdlib.h"
+	<string>
+
+1426088019 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/include/Message.h
+	"FastByteArray.h"
+	<sstream>
+
+1425613995 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/include/Server.h
+	<thread>
+	<boost/asio.hpp>
+	<boost/array.hpp>
+	"ServerDelegate.h"
+
+1425569281 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/include/ServerDelegate.h
+	<stdlib.h>
+	<string>
+
+1427483241 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/include/XMPClient.h
+	"messagesessionhandler.h"
+	"messageeventhandler.h"
+	"messageeventfilter.h"
+	"messagehandler.h"
+	"presencehandler.h"
+	"message.h"
+	"client.h"
+	"chatstatehandler.h"
+	"chatstatefilter.h"
+	"connectionlistener.h"
+	"loghandler.h"
+	"rostermanager.h"
+	"gloox.h"
+	"boost/thread.hpp"
+	"KeyManager.h"
+	"OTPRosterManager.h"
+	"Message.h"
+	"KeyValidator.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/messagesessionhandler.h
+	"stanza.h"
+	"messagesession.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/stanza.h
+	"gloox.h"
+	"tag.h"
+	"jid.h"
+	"stanzaextension.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/gloox.h
+	"macros.h"
+	<string>
+	<list>
+	<map>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/macros.h
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/tag.h
+	"gloox.h"
+	<string>
+	<list>
+	<utility>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/jid.h
+	"macros.h"
+	<string>
+
+1422823307 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/stanzaextension.h
+	"macros.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/messagesession.h
+	"jid.h"
+	"gloox.h"
+	<string>
+	<list>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/messageeventhandler.h
+	"gloox.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/messageeventfilter.h
+	"messagefilter.h"
+	"gloox.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/messagefilter.h
+	"messagesession.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/messagehandler.h
+	"macros.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/message.h
+	"delayeddelivery.h"
+	"stanza.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/delayeddelivery.h
+	"gloox.h"
+	"jid.h"
+	"stanzaextension.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/client.h
+	"clientbase.h"
+	"presence.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/clientbase.h
+	"macros.h"
+	"gloox.h"
+	"eventdispatcher.h"
+	"iqhandler.h"
+	"jid.h"
+	"logsink.h"
+	"mutex.h"
+	"taghandler.h"
+	"statisticshandler.h"
+	"tlshandler.h"
+	"compressiondatahandler.h"
+	"connectiondatahandler.h"
+	"parser.h"
+	"atomicrefcount.h"
+	<string>
+	<list>
+	<map>
+	<windows.h>
+	<security.h>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/eventdispatcher.h
+	"event.h"
+	<map>
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/event.h
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/iqhandler.h
+	"iq.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/iq.h
+	"stanza.h"
+	"gloox.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/logsink.h
+	"gloox.h"
+	"loghandler.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/loghandler.h
+	"gloox.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/mutex.h
+	"macros.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/taghandler.h
+	"tag.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/statisticshandler.h
+	"stanza.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/tlshandler.h
+	"macros.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/compressiondatahandler.h
+	"macros.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/connectiondatahandler.h
+	"gloox.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/parser.h
+	"gloox.h"
+	"taghandler.h"
+	"tag.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/atomicrefcount.h
+	"macros.h"
+	"mutex.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/presence.h
+	"stanza.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/chatstatehandler.h
+	"gloox.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/chatstatefilter.h
+	"messagefilter.h"
+	"gloox.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/connectionlistener.h
+	"gloox.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/presencehandler.h
+	"presence.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/rostermanager.h
+	"subscriptionhandler.h"
+	"privatexmlhandler.h"
+	"iqhandler.h"
+	"presencehandler.h"
+	"rosterlistener.h"
+	<map>
+	<string>
+	<list>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/subscriptionhandler.h
+	"subscription.h"
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/subscription.h
+	"stanza.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/privatexmlhandler.h
+	"macros.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/rosterlistener.h
+	"rosteritem.h"
+	<string>
+	<map>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/rosteritem.h
+	"jid.h"
+	"gloox.h"
+	"resource.h"
+	"presence.h"
+	<string>
+	<list>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/resource.h
+	"presence.h"
+	"util.h"
+	<string>
+
+1422745348 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/Deps/gloox/gloox-1.0.13/src/util.h
+	"gloox.h"
+	<cmath>
+	<algorithm>
+	<string>
+	<list>
+	<map>
+	<cstdlib>
+
+1426356449 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/include/OTPRosterManager.h
+	"gloox.h"
+	"rostermanager.h"
+	"rosterlistener.h"
+	"client.h"
+	"presencehandler.h"
+	"presence.h"
+
+1427484732 /home/benjamintrapani/Dropbox/Work/Programming/Linux/OTPEncryptionSystem/OTPEncryptor/include/KeyValidator.h
+	<vector>
+	"KeyManager.h"
+

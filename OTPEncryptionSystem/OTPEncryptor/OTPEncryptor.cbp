@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="OTPEncryptor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/OTPEncryptor" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="Deps" />
+					<Add directory="Deps/gloox/gloox-1.0.13/src" />
+					<Add directory="Deps/xmlrpc-c/xmlrpc-c-1.06.27/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lboost_system -lboost_thread -lpthread -lresolv" />
+					<Add library="Deps/gloox/libgloox.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/OTPEncryptor" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-Wall" />
+					<Add directory="include" />
+					<Add directory="Deps/gloox/gloox-1.0.13/src" />
+					<Add directory="Deps/boost" />
+					<Add directory="Deps/xmlrpc-c/xmlrpc-c-1.06.27/include/" />
+					<Add directory="Deps" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="Deps" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="include/FastByteArray.h" />
+		<Unit filename="include/KeyManager.h" />
+		<Unit filename="include/KeyValidator.h" />
+		<Unit filename="include/Message.h" />
+		<Unit filename="include/OTPRosterManager.h" />
+		<Unit filename="include/ServerDelegate.h" />
+		<Unit filename="include/XMPClient.h" />
+		<Unit filename="src/FastByteArray.cpp" />
+		<Unit filename="src/KeyManager.cpp" />
+		<Unit filename="src/KeyValidator.cpp" />
+		<Unit filename="src/Message.cpp" />
+		<Unit filename="src/OTPRosterManager.cpp" />
+		<Unit filename="src/ServerDelegate.cpp" />
+		<Unit filename="src/XMPClient.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

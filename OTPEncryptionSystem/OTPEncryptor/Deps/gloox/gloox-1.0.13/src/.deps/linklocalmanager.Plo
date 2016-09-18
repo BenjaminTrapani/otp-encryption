@@ -1,0 +1,10 @@
+linklocalmanager.lo: linklocalmanager.cpp /usr/include/stdc-predef.h \
+ linklocalmanager.h config.h ../config.h.unix
+
+/usr/include/stdc-predef.h:
+
+linklocalmanager.h:
+
+config.h:
+
+../config.h.unix:
